@@ -1,0 +1,14 @@
+.data
+titulo db "1st program",0
+text db "hello world",0
+.code
+push MB_OK
+push offset titulo
+push offset text
+push 0
+call MessageBox
+push 0
+call ExitProcess
+
+
+

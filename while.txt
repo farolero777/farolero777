@@ -1,0 +1,9 @@
+bob=0
+.WHILE bob<1000
+bob=bob+1
+print bob
+.ENDW
+
+
+
+

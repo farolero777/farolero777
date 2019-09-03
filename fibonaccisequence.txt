@@ -1,0 +1,16 @@
+bob=1
+print bob
+alice=1
+print alice
+re:
+alice=alice+bob
+print alice
+eve=bob
+eve=eve+alice
+print eve
+bob=eve
+
+pause
+goto re
+
+

@@ -1,0 +1,12 @@
+;i suggest you compare the speed of this program with the basicemblic language with other languages speed
+
+bob=0
+re:
+alice=0
+re1:
+alice=alice+1
+if alice<1000000
+goto re1
+bob=bob+1
+print bob
+goto re

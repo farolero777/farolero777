@@ -1,0 +1,12 @@
+;you have to input assembly commands to print chars if you keep in basic by now you can only print numbers,notice that due to
+;some unknown bug the basic.text file names can not have spaces
+
+alice=1337
+bob=0
+re:
+printalice
+bob=bob+1
+if bob<100
+goto re
+
+
